@@ -38,6 +38,12 @@ p {
   font-size: min(1rem, 3.5vw);
 }
 
+
+.work p {
+  color: red;
+  font-size: min(1rem, 3.2vw);
+}
+
 #preloader {
   position: fixed;
   background-size: 30%;
