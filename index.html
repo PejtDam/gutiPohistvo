@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+	<title>Guti Pohistvo</title>
+	<link rel="icon" type="image/x-icon" href="slike/guti.ico">
+</head>
+
+<body>
+
+	<div id="preloader" class="engLoader"></div>
+
+	<div class="navbarPlusAbout" id="navbarPlusAbout">
+		
+		<div class="navbar">
+			<a class="nav-link" href="#home" onclick="hideAbout()">home</a>
+			<a class="nav-link" id="about" onclick="toggleAbout()">about</a>
+			<a class="jezik" href="index-slo.html"><img src="slike/si.svg"></a>
+		</div>
+		<div class="about">
+			<div class="aboutAbout">
+				<h2>who am I</h2>
+				<p>I am Ales. Since 2005, I have been driven by a passion for creativity, perfectionism, and modern design. I specialize in producing premium furniture for cosmetic stores and commercial offices under the Guti Pohistvo brand, combining craftsmanship and innovation to meet the needs of our clients. I also create custom furniture for your home, helping to create a warm atmosphere where you can cherish moments with family and friends.</p>
+				<br>
+				<h2>how I work</h2>
+				<p>I take pride in using only high-quality materials and advanced technology in our production process. My flexible solutions allow me to tackle any challenge. By transforming your ideas into reality, I ensure that my customers are completely satisfied with the final product. Whether you need custom designs or inspiration from my previous work, I'm here to help you every step of the way.</p>
+				<br>
+				<h2>brands we worked with</h2>
+				<br>
+				<span class="firme">
+						Clarins
+					<br>Calvin Klein
+					<br>Bvlgari
+					<br>Chloe
+					<br>O.P.I.
+					<br>Sensai
+					<br>
+					<br>
+					<br>
+				</span>
+			</div>
+			<div class="aboutContact">
+				<h2>contact us</h2>
+				<br>
+				<h3>phone</h3>
+				<br>
+				<p class="contactText">+386 31 717 379</p>
+				<br>
+				<h3>e-mail</h3>
+				<br>
+				<p class="contactText" style="word-wrap: break-word;">pohistvo.guti@gmail.com</p>
+				<br>
+				<h3>location</h3>
+				<br>
+				<p class="contactText" style="word-wrap: break-word;">Brezje nad Kamnikom 10c, 1242 Stahovica, Slovenia</p>
+			</div>
+		</div>
+	</div>
+	<div id="home"></div>
+	<section class="prviDel" id="top" style="display: none;">
+		
+		<img draggable="false" class="zacetnaSlika" id="zSl1" src="slike/zacetek/omara3.webp">
+		<img draggable="false" class="zacetnaSlika anim2" id="zSl2" src="slike/zacetek/omara2.webp">
+		<img draggable="false" class="zacetnaSlika anim3" id="zSl3" src="slike/zacetek/omara1.webp">
+		<div draggable="false" class="senca anim2"></div>
+
+		<span class="text anim3" style="
+		--stBesed: 7;
+		--dolBeseda: 6;
+		">We<br> bring<br> your<br> dream<br> design<br> to<br>life.</span>
+
+	</section>
+  	<section class="fon2del" id="2del">
+	  	<div class="work">
+	  		<div style="
+	  		grid-column: 1/2;
+	  		grid-row: 2/3;" id="fonWork1">
+	  			<h2>work</h2>
+	  			<p>We specialize in creating custom-made furniture tailored to your vision.</p>
+	  		</div>
+	  		<div style="
+	  		grid-column: 2/3;
+	  		grid-row: 5/6;" id="fonWork1">
+	  			<p>Whether it's furnishing premium stores, business spaces, or your home...</p>
+	  		</div>
+	  		<div style="
+	  		grid-column: 2/3;
+	  		grid-row: 4/5;" id="fonWork2">
+	  			<p>...we are dedicated to crafting unique pieces that reflect your style and meet your needs.</p>
+	  		</div>
+	  		<div style="
+	  		grid-column: 1/2;
+	  		grid-row: 7/8;" id="fonWork2">
+	  			<p>With precision and creativity...</p>
+	  		</div>
+	  		<div style="
+	  		grid-column: 1/2;
+	  		grid-row: 6/7;" id="fonWork3">
+	  			<b>...we bring your dream design to life.</b>
+	  		</div>
+	  		
+	  	</div>
+
+	  	<div class='slikeContainer' id='sliki1'>
+	  		<div style="top: 25lvh; height: 25lvh;"></div>
+	  		<img draggable="false" src="slike/glavne-560/img1.webp" class="images1">
+	  		<img draggable="false" src="slike/glavne-560/img2.webp" class="images1">
+	  		<img draggable="false" src="slike/glavne-560/img3.webp" class="images1">
+		</div>
+	  	<div class='slikeContainer' id='sliki2'>
+	  		<div></div>
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img4.webp" class="images2">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img5.webp" class="images2">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img6.webp" class="images2">
+	  	</div>
+	  	<div class='slikeContainer' id='sliki3'>
+	  		<div></div>
+	  		
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img7.webp" class="images3">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img8.webp" class="images3">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img9.webp" class="images3">
+	  	</div>
+	  	<div class='slikeContainer' id='sliki4'>
+	  		<div></div>
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img10.webp" class="images4">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img11.webp" class="images4">
+	  		<img loading="lazy" draggable="false" src="slike/glavne-560/img12.webp" class="images4">
+	  	</div>
+	</section>
+	<section class="krogContainer">
+		<div class="krog">
+			<h1>work</h1>
+			<p>We specialize in creating custom-made furniture tailored to your vision. Whether it's furnishing premium stores, business spaces, or your home, we are dedicated to crafting unique pieces that reflect your style and meet your needs. With precision and creativity, we bring your dream design to life.</p>
+			<div class="kos">
+				<img draggable="false" src="slike/glavne-560/img1.webp">
+				<img draggable="false" draggable="false" class="krogImg2" src="slike/glavne-560/img6.webp">
+			</div>
+			<div class="kos" style="animation-delay: -6s;">
+				<img draggable="false" src="slike/glavne-560/img2.webp">
+				<img draggable="false" class="krogImg2" src="slike/glavne-560/img7.webp">
+			</div>
+			<div class="kos" style="animation-delay: -12s;">
+				<img draggable="false" src="slike/glavne-560/img3.webp">
+				<img draggable="false" class="krogImg2" src="slike/glavne-560/img8.webp">
+			</div>
+			<div class="kos" style="animation-delay: -18s;">
+				<img draggable="false" src="slike/glavne-560/img4.webp">
+				<img draggable="false" class="krogImg2" src="slike/glavne-560/img9.webp">
+			</div>
+			<div class="kos" style="animation-delay: -24s;">
+				<img draggable="false" src="slike/glavne-560/img5.webp">
+				<img draggable="false" class="krogImg2" src="slike/glavne-560/img10.webp">
+			</div>
+		</div>
+	</section>
+	<section class="galContainer">
+		<h1>galerija</h1>
+		<div class="galerija">
+			<img loading="lazy" draggable="false" class="siroka visoka" src="slike/glavne/img1.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img2.webp">
+			<img loading="lazy" draggable="false" class="visoka" src="slike/glavne/img3.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img4.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img5.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img6.webp">
+			<img loading="lazy" draggable="false" class="siroka" src="slike/glavne/img10.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img7.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img8.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img9.webp">
+			<img loading="lazy" draggable="false" class="visoka" src="slike/glavne/img11.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img12.webp">
+			<img loading="lazy" draggable="false" class="siroka visoka" src="slike/glavne/img14.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img15.webp">
+			<img loading="lazy" draggable="false" src="slike/glavne/img16.webp">
+			<img loading="lazy" draggable="false" class="siroka" src="slike/glavne/img13.webp">
+		</div>
+		<div class="popup">
+			<span>&times</span>
+			<img>
+		</div>
+	</section class="galContainer">glavne-560
+
+</body>
+<script src="script.js" defer></script>
+<script defer>
+	
+	document.querySelectorAll('.galerija img').forEach(image => {
+		image.onclick = () => {
+			document.querySelector('.popup').style.display = 'block';
+			document.querySelector('.popup img').src = image.getAttribute('src');
+		}
+	});
+
+	document.querySelector('.popup span').onclick = () => {
+		document.querySelector('.popup').style.display = 'none';
+	}
+
+
+</script>
+</html>
