@@ -15,7 +15,7 @@ html, body {
 
 body {
   background-color: #0d0d0d;
-  height: calc(100svh + 1000lvh + 260lvh);
+  height: calc(100svh + 1000lvh + 400lvh);
   color: white;
   font-family: 'Roboto Mono';
 }
