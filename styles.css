@@ -191,8 +191,8 @@ p {
   width: 90vw;
   text-transform: uppercase;
   mix-blend-mode: difference;
-  animation-delay: 6s;
-  animation-duration: 1s;
+  animation-delay: 7s;
+  animation-duration: 2s;
   z-index: 10;
 }
 
